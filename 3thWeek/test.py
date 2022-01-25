@@ -1,3 +1,5 @@
+# Run this script to get data results created with main.py
+
 import sqlite3 as sql
 from datetime import datetime
 
