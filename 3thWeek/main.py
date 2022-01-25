@@ -3,8 +3,8 @@
 import sqlite3 as sql
 import sys, json
 from datetime import datetime
-from user_model import User
-from common import RE
+from models.user_model import User
+from commons.common import RE
 
 if sys.argv[1] == "--file" and sys.argv[3] == "--db":
     try:
